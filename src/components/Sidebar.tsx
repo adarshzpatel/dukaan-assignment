@@ -123,7 +123,7 @@ const Sidebar = () => {
   return (
     <aside className="p-4 w-56 bg-[#1E2640] hidden lg:flex flex-col gap-4 sticky top-0 left-0 h-screen">
       <div className="flex items-center gap-4 ">
-        <div className="rounded-lg h-10 w-10 bg-white overflow-hidden">
+        <div className="rounded h-10 w-10 bg-white overflow-hidden">
           <img src="/pfp.png" className="object-cover object-center" alt="" />
         </div>
         <div className="flex-1">

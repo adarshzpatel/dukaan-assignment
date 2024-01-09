@@ -69,8 +69,8 @@ const TransactionTable = () => {
         </thead>
         <tbody>
           {txns.map((_, index) => (
-            <tr key={index} className="border-b ">
-              <td className="text-left  p-2 text-[#146EB4]">#281209</td>
+            <tr key={index} className="border-b border-[#E6E6E6] ">
+              <td className="text-left  px-3 py-3.5 text-[#146EB4]">#281209</td>
               <td className=" p-2">7 July, 2023</td>
               <td className=" p-2">₹ 1278.23 </td>
               <td className="text-right p-2">₹ 22</td>
